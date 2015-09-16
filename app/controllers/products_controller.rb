@@ -5,6 +5,7 @@ class ProductsController < ApplicationController
   # GET /products.json
   def index
     @products = Product.all
+    puts "Total Products: #{@products.count}"
   end
 
   # GET /products/1
