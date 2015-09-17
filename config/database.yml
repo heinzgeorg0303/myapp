@@ -42,5 +42,7 @@ test:
   <<: *default
   database: myrubyblog_test
 
-
+production:
+  <<: *default
+  database: myrubyblog_production
 
