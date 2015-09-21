@@ -47,7 +47,7 @@ end
 
 gem 'therubyracer'
 gem 'devise'
-gem 'omniauth'
-gem 'omniauth-digitalocean'
+# gem 'omniauth'
+# gem 'omniauth-digitalocean'
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'figaro'
